@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from 'react';
-import { useGameStore } from '../store/gameStore';
+import { useGameStore, GRID_SIZE } from '../store/gameStore';
 import { clsx } from 'clsx';
 
-const GRID_SIZE = 25;
+
 
 export const GameCanvas: React.FC = () => {
   const { snake, food, direction, status, setDirection, moveSnake, speed } = useGameStore();
