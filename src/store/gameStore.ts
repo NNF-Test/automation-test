@@ -2,10 +2,10 @@ import { create } from 'zustand';
 import { GameState, Direction, Position } from '../types/game';
 
 // Constants
-const GRID_SIZE = 25;
-const INITIAL_SPEED = 120;
-const MIN_SPEED = 50;
-const SPEED_DECREMENT = 3;
+const GRID_SIZE = 30;
+const INITIAL_SPEED = 100;
+const MIN_SPEED = 40;
+const SPEED_DECREMENT = 2;
 
 // Helper to generate random food position
 const generateFood = (snake: Position[], gridSize: number): Position => {
