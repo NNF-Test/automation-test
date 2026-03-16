@@ -2,7 +2,7 @@ import { create } from 'zustand';
 import { GameState, Direction, Position } from '../types/game';
 
 // Constants
-const GRID_SIZE = 30;
+export const GRID_SIZE = 30;
 const INITIAL_SPEED = 100;
 const MIN_SPEED = 40;
 const SPEED_DECREMENT = 2;
